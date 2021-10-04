@@ -120,3 +120,61 @@ footer a{
 	margin-bottom: 5%;
 	align-items: center;
 }
+
+@media(max-width:500px){
+    h1{
+        
+        text-align: center;
+        
+    }
+}
+@media(max-width:500px){
+    nav.topnav  {
+        display:flex;
+        flex-direction: column;
+        margin-left: 35%;
+        margin-right:35%;
+}
+}
+
+@media(max-width:500px){
+    .mid{
+        display:flex;
+        flex-direction: column;
+
+    }
+}
+@media(max-width:500px){
+    .mid img{
+        margin-left: 10%;
+    }
+}
+@media(max-width:500px){
+    div.projects{
+        
+        text-align: center;
+        
+    }
+}
+@media(max-width:500px){
+   div.p{
+        
+    word-wrap:unset;
+        
+    }
+}
+
+@media(max-width:500px){
+    section.row img, div.rowlist{
+        
+        width:50%;
+        height:50%;
+       
+      
+    }
+}
+@media(max-width:800px){
+    section.row img{
+        width:90%;
+    }
+}
